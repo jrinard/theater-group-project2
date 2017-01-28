@@ -1,0 +1,11 @@
+<div class="panel panel-heading" routerLink="/">
+  <h3>{{(memberToDisplay | async)?.firstName}}
+  {{(memberToDisplay | async)?.lastName}}</h3>
+  <span class="detail">
+  {{(memberToDisplay | async)?.phone}}<br>
+  {{(memberToDisplay | async)?.email}}<br>
+  {{(memberToDisplay | async)?.address}}<br>
+  {{(memberToDisplay | async)?.birthdate}}<br>
+  {{(memberToDisplay | async)?.gender}}<br>
+  {{(memberToDisplay | async)?.show}}</span>
+</div>
